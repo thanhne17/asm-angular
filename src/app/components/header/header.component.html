@@ -1,0 +1,19 @@
+<header class="flex justify-end sm:mx-[147px] sm:static sticky top-0">
+    <!-- laptop -->
+    <ul class="hidden sm:flex">
+        <li><a class="font-semibold text-xl ml-[35px]" routerLink="/work">Works</a></li>
+        <li><a class="font-semibold text-xl ml-[35px]" routerLink="/blog">Blog</a></li>
+        <li><a class="font-semibold text-xl ml-[35px]" routerLink="/">Contact</a></li>
+    </ul>
+    <div class="sm:hidden">
+        <i id="menu" class="fa-solid fa-bars text-xl"></i>
+        <div id="drop-down" class="absolute top-[0] right-0 h-0 overflow-hidden w-full duration-300 backdrop-blur">
+            <ul class="bg-[#00000080] p-[10px]">
+                <li><a class="font-semibold text-xl text-white" href="#">Works</a></li>
+                <li><a class="font-semibold text-xl text-white" href="#">Blog</a></li>
+                <li><a class="font-semibold text-xl text-white" href="#">Contact</a></li>
+            </ul>
+            <i id="close" class="fa-solid fa-xmark absolute top-[10px] right-[10px] text-2xl text-white"></i>
+        </div>
+    </div>
+</header>
