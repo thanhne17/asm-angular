@@ -1,1 +1,12 @@
-<p>admin-blog-add works!</p>
+
+
+<form (submit)="onSubmit()">
+    <div class="mb-3">
+        <input type="text" class="form-control" [(ngModel)]="blog.title" name="title" placeholder="Title">
+    </div>
+    <select name="categoryId" [(ngModel)]="blog.categoryBlogId" class="form-select mb-3" aria-label="Default select example">
+        <option *ngFor="let item of cateBlogList" value="{{item.id}}">{{item.name}}</option>
+    </select>
+    <ckeditor tagName="textarea" name="content" [(ngModel)]="blog.content"></ckeditor>
+    <button class="btn btn-primary mt-3">Submit</button>
+</form>
