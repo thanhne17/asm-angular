@@ -20,8 +20,8 @@
             <td>{{item.short_desc}}</td>
             <td>{{item.created_at}}</td>
             <td>{{item.categoryBlog.name}}</td>
-            <th scope="col"><button><i class="fa-regular fa-pen-to-square hover:scale-110 duration-100" title="Edit {{item.title}}"></i></button></th>
-            <th scope="col"><i class="fa-solid fa-trash cursor-pointer hover:scale-110 duration-100" title="Remove {{item.title}}"></i></th>
+            <th scope="col"><button><i routerLink="/admin/blog/{{item.id}}/edit" class="fa-regular fa-pen-to-square hover:scale-110 duration-100" title="Edit {{item.title}}"></i></button></th>
+            <th scope="col"><i (click)="onRemove(item.id)" class="fa-solid fa-trash cursor-pointer hover:scale-110 duration-100" title="Remove {{item.title}}"></i></th>
         </tr>
     </tbody>
 </table>

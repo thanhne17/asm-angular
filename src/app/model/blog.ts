@@ -4,5 +4,5 @@ export interface IBlog {
     content: string,
     short_desc: string,
     created_at: string,
-    categoryId?: number
+    categoryBlogId?: number
 }

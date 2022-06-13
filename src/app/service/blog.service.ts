@@ -12,13 +12,25 @@ export class BlogService {
     private http: HttpClient
   ) { }
 
-  getBlog (id: number) {
-    return this.http.get(this.url) 
+  getBlog (id: number):Observable<IBlog> {
+    return this.http.get<IBlog>(`${this.url}/${id}?_expand=categoryBlog`) 
   };
 
   getBlogs ():Observable<IBlog[]> {
     return this.http.get<IBlog[]>(`${this.url}?_expand=categoryBlog`)
   };
+
+  addBlog (data: IBlog):Observable<IBlog> {
+    return this.http.post<IBlog>(this.url, data)
+  };
+
+  editBlog (id:number, data: IBlog):Observable<IBlog> {
+    return this.http.put<IBlog>(`${this.url}/${id}`, data)
+  };
+
+  removeBlog (id:number):Observable<IBlog> {
+    return this.http.delete<IBlog>(`${this.url}/${id}`)
+  }
 
 
 }

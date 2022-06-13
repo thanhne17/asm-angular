@@ -16,6 +16,8 @@ import { AdminNavbarComponent } from './components/navbar/admin-navbar/admin-nav
 import { AdminBlogComponent } from './page/admin/admin-blog/admin-blog.component';
 import { AdminWorkComponent } from './page/admin/admin-work/admin-work.component';
 import { AdminBlogAddComponent } from './page/admin/admin-blog-add/admin-blog-add.component';
+import { CKEditorModule } from 'ckeditor4-angular';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -38,6 +40,8 @@ import { AdminBlogAddComponent } from './page/admin/admin-blog-add/admin-blog-ad
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    CKEditorModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,13 +8,21 @@ import { BlogService } from 'src/app/service/blog.service';
   styleUrls: ['./admin-blog.component.css']
 })
 export class AdminBlogComponent implements OnInit {
-  blogList!: any
+  blogList!: any[]
   constructor(private blogService: BlogService) { }
 
   ngOnInit(): void {
     this.blogService.getBlogs().subscribe(data=>{
       this.blogList = data
     })
+  }
+
+  onRemove (id:number) {
+    if (window.confirm("Remove this blog ?")) {
+      this.blogService.removeBlog(id).subscribe(()=>{
+        this.blogList = this.blogList.filter(item => item.id != id)
+      })
+    }
   }
 
 }
