@@ -17,7 +17,7 @@ export class BlogService {
   };
 
   getBlogs ():Observable<IBlog[]> {
-    return this.http.get<IBlog[]>(this.url)
+    return this.http.get<IBlog[]>(`${this.url}?_expand=categoryBlog`)
   };
 
 

@@ -1,0 +1,27 @@
+<div class="flex justify-between px-4">
+    <h1 class="text-3xl font-bold mb-5">Blog</h1>
+    <a routerLink="add"><i class="fa-solid fa-circle-plus fa-bounce text-3xl" title="Add blog"></i></a>
+</div>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Short description</th>
+            <th scope="col">Created at</th>
+            <th scope="col">Category</th>
+            <th scope="col">--</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of blogList, let i = index">
+            <th scope="row">{{ i + 1}}</th>
+            <td>{{ item.title }}</td>
+            <td>{{item.short_desc}}</td>
+            <td>{{item.created_at}}</td>
+            <td>{{item.categoryBlog.name}}</td>
+            <th scope="col"><button><i class="fa-regular fa-pen-to-square hover:scale-110 duration-100" title="Edit {{item.title}}"></i></button></th>
+            <th scope="col"><i class="fa-solid fa-trash cursor-pointer hover:scale-110 duration-100" title="Remove {{item.title}}"></i></th>
+        </tr>
+    </tbody>
+</table>

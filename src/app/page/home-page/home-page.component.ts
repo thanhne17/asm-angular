@@ -8,7 +8,7 @@ import { BlogService } from 'src/app/service/blog.service';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
-  blogList!:IBlog[]
+  blogList!: any
   constructor(
     private blogService: BlogService
   ) { }

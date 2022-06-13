@@ -14,17 +14,17 @@
 
 <!-- recent post -->
 <section class="sm:px-[147px] mt-[66px] bg-[#EDF7FA] p-[20px]">
-    <div class="flex justify-between pb-[20px] ">
-        <h4 class="text-xl">Recent posts</h4>
-        <a href="#" class="text-[#00A8CC] hidden sm:block">View all</a>
+    <div class="sm:flex justify-between pb-[20px]">
+        <h4 class="font-semibold text-xl sm:text-left text-center">Recent posts</h4>
+        <a routerLink="/blog" class="text-[#00A8CC] hidden sm:block">View all</a>
     </div>
     <div class="sm:flex sm:justify-between">
         <div *ngFor="let item of blogList" class="bg-white px-[20px] py-[30px] sm:ml-[20px] sm:mt-[0px] rounded mt-[20px]">
             <h1 class="font-bold text-2xl">{{item.title}}</h1>
-            <div class="w-[250px] flex justify-between pt-[30px] pb-[15px]">
-                <p>12 Feb 2020</p>
+            <div class="w-[150px] flex justify-between pt-[30px] pb-[15px]">
+                <p>{{item.created_at}}</p>
                 |
-                <p>Design, Pattern</p>
+                <p>{{item.categoryBlog.name}}</p>
             </div>
             <p class="text-lg">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                 Velit officia consequat duis enim velit mollit.

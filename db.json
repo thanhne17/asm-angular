@@ -6,15 +6,15 @@
             "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
             "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
             "created_at": "12 Feb 2020",
-            "categoryId": 1
+            "categoryBlogId": 1
         },
         {
             "id": 2,
             "title": "UI Interactions of the week",
             "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloribus, veniam laborum quo dolores ducimus fuga est! Ullam iure illum, consequuntur rerum, laboriosam fuga porro praesentium sit fugiat quod magni.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloribus, veniam laborum quo dolores ducimus fuga est! Ullam iure illum, consequuntur rerum, laboriosam fuga porro praesentium sit fugiat quod magni.",
             "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-            "created_at": "12 Feb 2020",
-            "categoryId": 1
+            "created_at": "17 Feb 2020",
+            "categoryBlogId": 1
         },
         {
             "id": 3,
@@ -22,10 +22,10 @@
             "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
             "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
             "created_at": "12 Feb 2000",
-            "categoryId": 2
+            "categoryBlogId": 2
         }
     ],
-    "categories": [
+    "categoryBlogs": [
         {
             "id": 1,
             "name": "Design"
