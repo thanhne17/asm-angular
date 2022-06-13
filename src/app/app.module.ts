@@ -18,6 +18,10 @@ import { AdminWorkComponent } from './page/admin/admin-work/admin-work.component
 import { AdminBlogAddComponent } from './page/admin/admin-blog-add/admin-blog-add.component';
 import { CKEditorModule } from 'ckeditor4-angular';
 import { FormsModule } from '@angular/forms';
+import { BlogDetailComponent } from './page/blog-detail/blog-detail.component';
+import { AdminWorkAddComponent } from './page/admin/admin-work-add/admin-work-add.component';
+import { WorkDetailComponent } from './page/work-detail/work-detail.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -35,13 +39,17 @@ import { FormsModule } from '@angular/forms';
     AdminBlogComponent,
     AdminWorkComponent,
     AdminBlogAddComponent,
+    BlogDetailComponent,
+    AdminWorkAddComponent,
+    WorkDetailComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     CKEditorModule,
-    FormsModule
+    FormsModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,60 +1,22 @@
 <!-- work -->
 <section class="sm:px-[147px] mt-[66px] p-[20px]">
     <h4 class="text-3xl font-bold">Works</h4>
-    <div class="border-b m-[20px] sm:m-0 sm:pb-[20px]">
-        <div class="sm:flex mt-[45px]">
+    <div *ngFor="let item of workList" class="border-b m-[20px] sm:m-0 sm:pb-[20px]">
+        <a routerLink="/work/{{item.id}}" class="sm:flex mt-[45px]">
             <img class="rounded sm:w-[250px]"
-                src="https://img.freepik.com/free-vector/dashboard-interface-user-panel-template_52683-23323.jpg"
+                src="{{item.image}}"
                 alt="">
             <div class="ml-[20px]">
-                <h1 class="text-2xl sm:text-2xl font-semibold">Designing Dashboards</h1>
+                <h1 class="text-2xl sm:text-2xl font-semibold">{{item.name}}</h1>
                 <div class="flex py-[15px]">
                     <p class="px-[10px] mr-[20px] rounded-full bg-black text-white text-lg font-semibold">2020</p>
-                    <p class="text-lg">Dashboad</p>
+                    <p class="text-lg">{{item.categoriesWork.name}}</p>
                 </div>
                 <span>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                     Velit officia consequat duis enim velit mollit.
                     Exercitation veniam consequat sunt nostrud amet.
                 </span>
             </div>
-        </div>
-    </div>
-
-    <div class="sm:block hidden border-b pb-[20px]">
-        <div class="flex mt-[45px]">
-            <img class="rounded w-[250px]"
-                src="https://img.freepik.com/free-vector/dashboard-interface-user-panel-template_52683-23323.jpg"
-                alt="">
-            <div class="ml-[20px]">
-                <h1 class="text-2xl font-semibold">Vibrant Portraits of 2020</h1>
-                <div class="flex py-[15px]">
-                    <p class="px-[10px] mr-[20px] rounded-full bg-black text-white text-lg font-semibold">2020</p>
-                    <p class="text-lg">Dashboad</p>
-                </div>
-                <span>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                    Velit officia consequat duis enim velit mollit.
-                    Exercitation veniam consequat sunt nostrud amet.
-                </span>
-            </div>
-        </div>
-    </div>
-
-    <div class="sm:block hidden border-b pb-[20px]">
-        <div class="flex mt-[45px]">
-            <img class="rounded w-[250px] h-[200px]"
-                src="https://tranhtreotuonghanoi.com/wp-content/uploads/2020/02/tranh-la-cay-nghe-thuat-canvas-hien-dai-amia-cv270.jpg"
-                alt="">
-            <div class="ml-[20px]">
-                <h1 class="text-2xl font-semibold">36 Days of Malayalam type</h1>
-                <div class="flex py-[15px]">
-                    <p class="px-[10px] mr-[20px] rounded-full bg-black text-white text-lg font-semibold">2018</p>
-                    <p class="text-lg">Dashboad</p>
-                </div>
-                <span>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                    Velit officia consequat duis enim velit mollit.
-                    Exercitation veniam consequat sunt nostrud amet.
-                </span>
-            </div>
-        </div>
+        </a>
     </div>
 </section>

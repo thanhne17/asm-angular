@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IBlog } from 'src/app/model/blog';
 import { BlogService } from 'src/app/service/blog.service';
+import { WorkService } from 'src/app/service/work.service';
 
 @Component({
   selector: 'app-home-page',
@@ -9,17 +10,26 @@ import { BlogService } from 'src/app/service/blog.service';
 })
 export class HomePageComponent implements OnInit {
   blogList!: any
+  workList!: any
   constructor(
-    private blogService: BlogService
+    private blogService: BlogService,
+    private workService: WorkService
   ) { }
 
   ngOnInit(): void {
     this.showProduct()
+    this.showWork()
   }
 
   showProduct () {
-    this.blogService.getBlogs().subscribe(data => {
+    this.blogService.getBlogsHome().subscribe(data => {
       this.blogList = data
+    })
+  }
+
+  showWork () {
+    this.workService.getWorksHome().subscribe(data => {
+      this.workList = data
     })
   }
 

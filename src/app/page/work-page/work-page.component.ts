@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { WorkService } from 'src/app/service/work.service';
 
 @Component({
   selector: 'app-work-page',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./work-page.component.css']
 })
 export class WorkPageComponent implements OnInit {
-
-  constructor() { }
+  workList!: any
+  constructor(
+    private workService: WorkService
+  ) { }
 
   ngOnInit(): void {
+    this.showBlog()
   }
 
+  showBlog () {
+    this.workService.getWorks().subscribe(data => this.workList = data)
+  }
 }

@@ -1,0 +1,9 @@
+<form (submit)="onSubmit()">
+    <div class="mb-3">
+        <input type="text" class="w-full indent-[10px] border-b" [(ngModel)]="work.name" name="name" placeholder="Title">
+    </div>
+    <select name="categoriesWorkId" [(ngModel)]="work.categoriesWorkId" class="w-full indent-[10px] border-b mb-3">
+        <option *ngFor="let item of cateworkList" value="{{item.id}}">{{item.name}}</option>
+    </select>
+    <button class="btn btn-primary mt-3">Submit</button>
+</form>

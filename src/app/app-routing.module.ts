@@ -4,9 +4,12 @@ import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.compone
 import { SiteLayoutComponent } from './layout/site-layout/site-layout.component';
 import { AdminBlogAddComponent } from './page/admin/admin-blog-add/admin-blog-add.component';
 import { AdminBlogComponent } from './page/admin/admin-blog/admin-blog.component';
+import { AdminWorkAddComponent } from './page/admin/admin-work-add/admin-work-add.component';
 import { AdminWorkComponent } from './page/admin/admin-work/admin-work.component';
+import { BlogDetailComponent } from './page/blog-detail/blog-detail.component';
 import { BlogPageComponent } from './page/blog-page/blog-page.component';
 import { HomePageComponent } from './page/home-page/home-page.component';
+import { WorkDetailComponent } from './page/work-detail/work-detail.component';
 import { WorkPageComponent } from './page/work-page/work-page.component';
 
 const routes: Routes = [
@@ -25,6 +28,14 @@ const routes: Routes = [
       {
         path: "work",
         component: WorkPageComponent
+      },
+      {
+        path: "work/:id",
+        component: WorkDetailComponent
+      },
+      {
+        path: "blog/:id",
+        component: BlogDetailComponent
       }
     ]
   },
@@ -47,7 +58,15 @@ const routes: Routes = [
       {
         path: "work",
         component: AdminWorkComponent
-      }
+      },
+      {
+        path: "work/add",
+        component: AdminWorkAddComponent
+      },
+      {
+        path: "work/:id/edit",
+        component: AdminWorkAddComponent
+      },
     ]
   }
 ];

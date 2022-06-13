@@ -20,6 +20,10 @@ export class BlogService {
     return this.http.get<IBlog[]>(`${this.url}?_expand=categoryBlog`)
   };
 
+  getBlogsHome ():Observable<IBlog[]> {
+    return this.http.get<IBlog[]>(`${this.url}?_expand=categoryBlog&_limit=2`)
+  };
+
   addBlog (data: IBlog):Observable<IBlog> {
     return this.http.post<IBlog>(this.url, data)
   };

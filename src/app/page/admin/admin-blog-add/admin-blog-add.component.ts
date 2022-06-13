@@ -29,8 +29,7 @@ export class AdminBlogAddComponent implements OnInit {
 
   getShortDesc() {
     // let desc: any = this.blog.content.substring(0, 50)
-    // return desc
-    return "akvjwsvw"
+    return ""
   }
 
   constructor(
@@ -44,19 +43,19 @@ export class AdminBlogAddComponent implements OnInit {
     this.cateBlog.getCates().subscribe(data => this.cateBlogList = data)
     const id = this.route.snapshot.paramMap.get("id");
     if (id) {
-      this.blogService.getBlog(+id).subscribe(data=>this.blog=data)
+      this.blogService.getBlog(+id).subscribe(data => this.blog = data)
     }
   }
 
   onSubmit() {
     const id = +this.route.snapshot.paramMap.get("id")!;
     if (id) {
-      this.blogService.editBlog(id, this.blog).subscribe(()=>{
+      this.blogService.editBlog(id, this.blog).subscribe(() => {
         this.router.navigateByUrl("/admin/blog")
       })
     }
-    else{
-      this.blogService.addBlog(this.blog).subscribe(()=>{
+    else {
+      this.blogService.addBlog(this.blog).subscribe(() => {
         this.router.navigateByUrl("/admin/blog")
       })
     }
