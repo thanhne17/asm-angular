@@ -1,0 +1,14 @@
+#down {
+    animation: dropDown .5s;
+}
+
+@keyframes dropDown {
+    from{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

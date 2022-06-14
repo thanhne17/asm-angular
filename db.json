@@ -22,11 +22,15 @@
     },
     {
       "id": 3,
-      "title": "Making a design system from scratch",
-      "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "title": "Making a design system from scratch 2",
+      "content": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>\n",
       "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
       "created_at": "12 Feb 2000",
-      "categoryBlogId": 2
+      "categoryBlogId": 2,
+      "categoryBlog": {
+        "id": 2,
+        "name": "Pattern"
+      }
     },
     {
       "content": "<p><strong>Hello mn</strong></p>\n\n<p><strong><img alt=\"mq\" src=\"https://res.cloudinary.com/djsbi0bma/image/upload/v1649950849/xtw4evmg2kuuozrov5la.jpg\" style=\"height:626px; width:626px\" /></strong></p>\n",
@@ -100,7 +104,7 @@
   "users": [],
   "contact": [
     {
-      "id":1,
+      "id": 1,
       "email": "thanhntph15251@fpt.edu.vn",
       "phone": "0354170252"
     }

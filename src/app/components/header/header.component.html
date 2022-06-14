@@ -1,6 +1,7 @@
-<header class="flex justify-end sm:mx-[147px] sm:static sticky top-0">
+<header class="flex justify-end sm:mx-[147px] sm:static sticky top-0 bg-white">
     <!-- laptop -->
     <ul class="hidden sm:flex">
+        <li><a class="font-semibold text-xl ml-[35px]" routerLink="/">Home</a></li>
         <li><a class="font-semibold text-xl ml-[35px]" routerLink="/work">Works</a></li>
         <li><a class="font-semibold text-xl ml-[35px]" routerLink="/blog">Blog</a></li>
         <li><a class="font-semibold text-xl ml-[35px]" routerLink="/contact">Contact</a></li>
@@ -8,17 +9,16 @@
         </li>
     </ul>
     <div class="sm:hidden px-3">
-        <i id="menu" class="fa-solid fa-bars text-xl"></i>
-        <div id="drop-down" class="absolute top-[0] right-0 h-0 overflow-hidden w-full duration-300 backdrop-blur">
+        <i class="fa-solid fa-bars text-xl" (click)="onClick()"></i>
+        <div id="down" class="absolute right-0 w-full duration-300 backdrop-blur" [ngClass]="status ? 'block' : 'hidden' ">
             <ul class="bg-[#00000080] p-[10px]">
-                <li><a class="font-semibold text-xl text-white" href="#">Works</a></li>
-                <li><a class="font-semibold text-xl text-white" href="#">Blog</a></li>
-                <li><a class="font-semibold text-xl text-white" href="#">Contact</a></li>
-                <li><a class="font-semibold text-xl ml-[35px]" routerLink="/login"><i
-                            class="fa-regular fa-circle-user"></i></a></li>
+                <li><a class="font-semibold text-xl text-white" routerLink="/work">Works</a></li>
+                <li><a class="font-semibold text-xl text-white" routerLink="/blog">Blog</a></li>
+                <li><a class="font-semibold text-xl text-white" routerLink="/contact">Contact</a></li>
+                <li><a class="font-semibold text-xl text-white" routerLink="/login">
+                      Login</a></li>
 
             </ul>
-            <i id="close" class="fa-solid fa-xmark absolute top-[10px] right-[10px] text-2xl text-white"></i>
         </div>
     </div>
 </header>
