@@ -3,5 +3,7 @@
         <h1 class="text-3xl font-bold ">{{blog.title}}</h1>
         <span>{{blog.categoryBlog.name}}</span> | <span>{{blog.created_at}}</span>
     </div>
-    {{blog.content}}
+    <div class="" [innerHTML]="blog.content">
+       
+    </div>
 </section>

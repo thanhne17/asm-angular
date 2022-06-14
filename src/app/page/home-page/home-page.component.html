@@ -1,8 +1,8 @@
-<section class="flex sm:flex-row-reverse sm:justify-between sm:px-[147px] sm:pt-[180px] flex-col items-center">
+<section class="flex sm:flex-row-reverse sm:justify-between sm:pt-[180px] flex-col justify-center items-center mx-auto sm:w-[1152px]">
     <img class="rounded-full w-[250px] h-[250px] my-[20px] sm:my-[0px]"
         src="https://res.cloudinary.com/djsbi0bma/image/upload/v1645776496/ldy1d0uqb6we9lbmttsd.jpg"
         alt="">
-    <div class="w-[60%] text-center sm:text-left ">
+    <div class="w-[60%] sm:text-left ">
         <h2 class="font-semibold text-3xl sm:text-5xl">Hi, I am Thanh,<br> Creative Technologist</h2>
         <p class="py-[40px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor
             do amet sint. Velit officia consequat duis enim velit mollit.
@@ -14,31 +14,33 @@
 
 <!-- recent post -->
 <section class="sm:px-[147px] mt-[66px] bg-[#EDF7FA] p-[20px]">
-    <div class="sm:flex justify-between pb-[20px]">
-        <h4 class="font-semibold text-xl sm:text-left text-center">Recent posts</h4>
-        <a routerLink="/blog" class="text-[#00A8CC] hidden sm:block">View all</a>
-    </div>
-    <div class="sm:flex sm:justify-between">
-        <div *ngFor="let item of blogList" class="bg-white px-[20px] py-[30px] sm:ml-[20px] sm:mt-[0px] rounded mt-[20px]">
-            <a routerLink="/blog/{{item.id}}">
-                <h1 class="font-bold text-2xl">{{item.title}}</h1>
-                <div class="w-[150px] flex justify-between pt-[30px] pb-[15px]">
-                    <p>{{item.created_at}}</p>
-                    |
-                    <p>{{item.categoryBlog.name}}</p>
-                </div>
-                <p class="text-lg">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                    Velit officia consequat duis enim velit mollit.
-                    Exercitation veniam consequat sunt nostrud amet.</p>
-            </a>
+    <div class="mx-auto sm:w-[1152px]">
+        <div class="sm:flex justify-between">
+            <h4 class="font-semibold text-xl sm:pb-[20px] sm:text-left text-center">Recent posts</h4>
+            <a routerLink="/blog" class="text-[#00A8CC] hidden sm:block">View all</a>
+        </div>
+        <div class="sm:grid sm:grid-cols-2 gap-3">
+            <div *ngFor="let item of blogList" class="bg-white px-[20px] py-[30px] sm:mt-[0px] rounded mt-[20px]">
+                <a routerLink="/blog/{{item.id}}">
+                    <h1 class="font-bold text-2xl">{{item.title}}</h1>
+                    <div class="w-[150px] flex justify-between pt-[30px] pb-[15px]">
+                        <p>{{item.created_at}}</p>
+                        |
+                        <p>{{item.categoryBlog.name}}</p>
+                    </div>
+                    <p class="text-lg">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.</p>
+                </a>
+            </div>
         </div>
     </div>
 </section>
 
 <!-- work -->
-<section class="sm:px-[147px] mt-[30px]">
-    <h4 class="font-semibold text-xl sm:text-left text-center ">Featured Works</h4>
-    <div *ngFor="let item of workList" class="border-b m-[20px] sm:m-0 sm:pb-[20px]">
+<section class="mt-[30px] mx-auto sm:w-[1152px]">
+    <h4 class="font-semibold text-xl sm:text-left text-center">Featured Works</h4>
+    <div *ngFor="let item of workList" class="border-b p-[20px] sm:m-0 sm:pb-[20px]">
         <a routerLink="/work/{{item.id}}" class="sm:flex mt-[45px]">
             <img class="rounded sm:w-[250px]"
                 src="{{item.image}}"

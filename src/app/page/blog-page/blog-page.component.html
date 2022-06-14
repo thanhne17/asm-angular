@@ -1,14 +1,20 @@
 <section class="sm:px-[147px] mt-[66px] p-[20px]">
-    <h1 class="text-3xl font-bold">Blog</h1>
+    <div class="flex justify-between">
+        <h1 class="text-3xl font-bold">Blog</h1>
+        <ul class="flex justify-between items-center">
+            <li><button class="p-[10px] border hover:bg-[#1b74e4] hover:text-white min-w-[70px]">All</button></li>
+            <li *ngFor="let item of cateList"><button (click)="onFilter(item.id)" class="p-[10px] border hover:bg-[#1b74e4] hover:text-white  min-w-[70px]">{{item.name}}</button></li>
+        </ul>
+    </div>
     <div class="">
         <div routerLink="/blog/{{item.id}}" *ngFor="let item of blogList" class="bg-white py-[30px] rounded border-b cursor-pointer">
             <h1 class="font-bold text-2xl">{{item.title}}</h1>
             <div class="w-[250px] flex justify-between pt-[30px] pb-[15px]">
                 <p>12 Feb 2020</p>
                 |
-                <p>{{item.categoryBlog.name}}</p>
+                <p>{{item?.categoryBlog?.name}}</p>
             </div>
-            <p class="text-lg">{{item.content}}</p>
+            <p class="text-lg" [innerHTML]=item.content></p>
         </div>
     </div>
 </section>

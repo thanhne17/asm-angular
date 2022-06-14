@@ -19,4 +19,8 @@ export class CateBlogService {
   getCates():Observable<ICateBlog[]> {
     return this.http.get<ICateBlog[]>(this.url)
   };
+
+  getBlogByCate (id:number) {
+    return this.http.get(`${this.url}/${id}?_embed=blogs`)
+  }
 }

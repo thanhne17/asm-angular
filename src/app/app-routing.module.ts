@@ -8,7 +8,10 @@ import { AdminWorkAddComponent } from './page/admin/admin-work-add/admin-work-ad
 import { AdminWorkComponent } from './page/admin/admin-work/admin-work.component';
 import { BlogDetailComponent } from './page/blog-detail/blog-detail.component';
 import { BlogPageComponent } from './page/blog-page/blog-page.component';
+import { ContactPageComponent } from './page/contact-page/contact-page.component';
 import { HomePageComponent } from './page/home-page/home-page.component';
+import { LoginComponent } from './page/login/login.component';
+import { SignupPageComponent } from './page/signup-page/signup-page.component';
 import { WorkDetailComponent } from './page/work-detail/work-detail.component';
 import { WorkPageComponent } from './page/work-page/work-page.component';
 
@@ -36,6 +39,10 @@ const routes: Routes = [
       {
         path: "blog/:id",
         component: BlogDetailComponent
+      },
+      {
+        path: "contact",
+        component: ContactPageComponent
       }
     ]
   },
@@ -68,6 +75,14 @@ const routes: Routes = [
         component: AdminWorkAddComponent
       },
     ]
+  },
+  {
+    path: "login",
+    component: LoginComponent
+  },
+  {
+    path: "signup",
+    component: SignupPageComponent
   }
 ];
 

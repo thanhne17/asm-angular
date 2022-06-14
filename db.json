@@ -3,10 +3,14 @@
     {
       "id": 1,
       "title": "Making a design system from scratch",
-      "content": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "content": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.hhjghgghg</p>\n",
       "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
       "created_at": "12 Feb 2020",
-      "categoryBlogId": 1
+      "categoryBlogId": 1,
+      "categoryBlog": {
+        "id": 1,
+        "name": "Design"
+      }
     },
     {
       "id": 2,
@@ -29,8 +33,24 @@
       "created_at": "2022-06-13T15:38:52.720Z",
       "short_desc": "",
       "title": "Thành nè",
-      "categoryBlogId": "1",
+      "categoryBlogId": 1,
       "id": 4
+    },
+    {
+      "content": "<p>Đại sứ qu&aacute;n Việt Nam tại Malaysia c&oacute; văn bản gửi Bộ C&ocirc;ng Thương l&agrave;m r&otilde; th&ocirc;ng tin gi&aacute; xăng 13.000 đồng/l&iacute;t v&agrave; th&ocirc;ng tin Malaysia đồng &yacute; xuất khẩu xăng RON95 sang Việt Nam.</p>\n\n<p>Về th&ocirc;ng tin ch&iacute;nh phủ Malaysia đồng &yacute; xuất cho Việt Nam 300.000 tấn xăng RON95, theo th&ocirc;ng tin của ph&iacute;a Malaysia, nội dung th&uacute;c đẩy hợp t&aacute;c xăng dầu giữa hai nước đ&atilde; được &ocirc;ng Nguyễn Hồng Di&ecirc;n, Bộ trưởng Bộ C&ocirc;ng thương Việt Nam n&ecirc;u tại cuộc chi&ecirc;u đ&atilde;i trưa ng&agrave;y 21/3/2022 tại Trụ sở Văn ph&ograve;ng Ch&iacute;nh phủ với Bộ trưởng Cao cấp Bộ C&ocirc;ng thương Malaysia (MITI) Azmin Ali nh&acirc;n dịp Thủ tướng Ch&iacute;nh phủ Malaysia Ismail Sabri bin Yaakob thăm ch&iacute;nh thức Việt Nam.</p>\n\n<p><img src=\"https://static-images.vnncdn.net/files/publish/2022/6/14/gia-xang-tang-490.jpg\" /></p>\n\n<p>Ngay sau đ&oacute;, Bộ trưởng MITI Azmin Ali đ&atilde; điện thoại cho Chủ tịch tập đo&agrave;n Petronas v&agrave; ph&iacute;a Petronas đ&atilde; đồng &yacute; cung ứng cho ph&iacute;a Việt Nam 300.000 tấn xăng RON95 để thể hiện hữu nghị.</p>\n\n<p>Theo Đại sứ qu&aacute;n Việt Nam tại Malaysia, chiều c&ugrave;ng ng&agrave;y, tại cuộc gặp giữa Thủ tướng Malaysia Ismail Sabri bin Yaakob với &ocirc;ng Vương Đ&igrave;nh Huệ, Chủ tịch Quốc hội, Thủ tướng Malaysia đ&atilde; ch&iacute;nh thức th&ocirc;ng tin với l&atilde;nh đạo cấp cao Việt Nam về vấn đề n&agrave;y v&agrave; tỏ &yacute; sẵn s&agrave;ng hợp t&aacute;c với Việt Nam để th&uacute;c đẩy hợp t&aacute;c nhằm bảo đảm an ninh năng lượng trong bối cảnh c&oacute; nhiều biến động hiện nay.&nbsp;</p>\n\n<p>S&aacute;ng ng&agrave;y 22/3/2022, trước khi ra s&acirc;n bay về nước, Thủ tướng Malaysia đ&atilde; tổ chức họp b&aacute;o tại H&agrave; Nội v&agrave; đ&atilde; cung cấp th&ocirc;ng tin cho b&aacute;o ch&iacute;. Do vậy, c&aacute;c b&aacute;o, h&atilde;ng tin lớn của Malaysia như Bernama, the Malaysia Reserve... đều đ&atilde; đưa c&ocirc;ng khai th&ocirc;ng tin n&agrave;y.</p>\n\n<p>&quot;C&oacute; một kh&aacute;c biệt nhỏ l&agrave; b&aacute;o Malaysia đưa tin l&agrave; &ldquo;th&ugrave;ng&rdquo;, trong khi Thủ tướng Malaysia n&ecirc;u l&agrave; &ldquo;tấn&rdquo;&quot;, Đại sứ qu&aacute;n Việt Nam tại Malaysia n&ecirc;u r&otilde;.</p>\n\n<p>Đại sứ qu&aacute;n Việt Nam tại Malaysia cho rằng: D&ugrave; sao đi nữa đ&acirc;y l&agrave; cử chỉ thiện ch&iacute;, hữu nghị của ph&iacute;a Malaysia trong chuyến thăm. Bạn sẵn s&agrave;ng trao đổi, b&agrave;n bạc cụ thể, trực tiếp giữa c&aacute;c b&ecirc;n li&ecirc;n quan, nhưng đến nay c&oacute; thể do kh&acirc;u th&ocirc;ng tin chưa khớp m&agrave; hai b&ecirc;n chưa triển khai được.&nbsp;</p>\n\n<p>Về ph&iacute;a Việt Nam, sau khi kết th&uacute;c chuyến thăm, Bộ Ngoại giao đ&atilde; c&oacute; b&aacute;o c&aacute;o Thủ tướng Ch&iacute;nh phủ v&agrave; L&atilde;nh đạo cấp cao, sau đ&oacute; ng&agrave;y 15/4/2022, Văn ph&ograve;ng Ch&iacute;nh phủ đ&atilde; c&oacute; C&ocirc;ng văn số 1128/VPCP-QHQT truyền đạt &yacute; kiến chỉ đạo của Thủ tướng Ch&iacute;nh phủ về việc triển khai c&aacute;c kết quả đạt được của chuyến thăm, trong đ&oacute; c&oacute; phần&nbsp;li&ecirc;n quan tới vấn đề Halal, vấn đề xăng dầu, trong đ&oacute; c&oacute; việc nhập khẩu 300.000 tấn xăng RON95...</p>\n\n<p>Đại sứ qu&aacute;n Việt Nam tại Malaysia cho biết cũng đ&atilde; nhận được điện th&ocirc;ng b&aacute;o kết quả chuyến thăm v&agrave; đ&atilde; được truyền đạt &yacute; kiến chỉ đạo của Thủ tướng Ch&iacute;nh phủ để triển khai tại địa b&agrave;n.&nbsp;</p>\n\n<p>&quot;Thời gian qua, trong qu&aacute; tr&igrave;nh trao đổi, l&agrave;m việc với c&aacute;c đối t&aacute;c ở Malaysia, ph&iacute;a Malaysia c&oacute; thăm d&ograve; t&ocirc;i (với tư c&aacute;ch l&agrave; Đại sứ tại Malaysia) một hai lần về việc c&ugrave;ng triển khai c&aacute;c vấn đề n&ecirc;u tr&ecirc;n, kh&ocirc;ng chỉ l&agrave; vấn đề xăng dầu, m&agrave; c&ograve;n c&aacute;c vấn đề kh&aacute;c như vấn đề nhập khẩu dầu cọ, vấn đề gạo,.. nhưng Đại sứ qu&aacute;n đều kh&ocirc;ng c&oacute; th&ocirc;ng tin. T&ocirc;i đ&atilde; nhờ Cơ quan thương vụ điện về Bộ C&ocirc;ng Thương hỏi nhưng Cơ quan thương vụ Việt Nam tại Malaysia đều trả lời kh&ocirc;ng c&oacute; th&ocirc;ng tin về vấn đề n&agrave;y (!?)&quot;, Đại sứ qu&aacute;n Việt Nam tại Malaysia gi&atilde;i b&agrave;y.</p>\n\n<p>Ngo&agrave;i ra, theo Đại sứ qu&aacute;n Việt Nam tại Malaysia, li&ecirc;n quan tới gi&aacute; xăng dầu tr&ecirc;n thị trường Malaysia hiện nay, do được trợ gi&aacute; n&ecirc;n gi&aacute; xăng dầu tại Malaysia tương đối ổn định.</p>\n\n<p>Xăng RON95 c&oacute; gi&aacute; tương đương từ 11.000-13.000 đồng/l&iacute;t. Mức gi&aacute; n&agrave;y đ&atilde; được trợ gi&aacute; v&agrave; được điều chỉnh th&ocirc;ng qua cơ chế điều chỉnh gi&aacute; xăng dầu tự động (Automated Pricing Mechanism) do Bộ C&ocirc;ng thương Malaysia điều h&agrave;nh. Mức gi&aacute; n&agrave;y đ&atilde; được giữ ổn định từ ng&agrave;y 27/2/2021 đến nay v&agrave; sẽ được tiếp tục duy tr&igrave; ổn định tới lần điều chỉnh tự động tới v&agrave;o ng&agrave;y 8/6/2022.</p>\n\n<p>Đại sứ qu&aacute;n Việt Nam tại Malaysia khẳng định lại đ&acirc;y l&agrave; gi&aacute; b&aacute;n nội địa c&oacute; trợ gi&aacute;, kh&ocirc;ng phải l&agrave; gi&aacute; xuất khẩu, c&agrave;ng kh&ocirc;ng phải l&agrave; gi&aacute; do&nbsp;ph&iacute;a Malaysia đề xuất cho ta.</p>\n\n<p><strong>Lương Bằng</strong></p>\n",
+      "created_at": "2022-06-14T06:51:00.486Z",
+      "short_desc": "",
+      "title": "Malaysia bán xăng 13.000 đồng/lít cho Việt Nam, ĐSQ phản hồi chính thức",
+      "categoryBlogId": 2,
+      "id": 5
+    },
+    {
+      "content": "<p>Qu&acirc;n đội Nga đ&atilde; ph&aacute; hủy to&agrave;n bộ 3 c&acirc;y cầu dẫn ra khỏi Severodonetsk, c&ocirc; lập th&agrave;nh phố n&agrave;y. T&igrave;nh h&igrave;nh chiến sự tại Donbass khiến cho Ukraine thiệt hại nặng nề, &quot;l&agrave; một trong những cuộc xung đột thảm khốc nhất lịch sử ch&acirc;u &Acirc;u&quot;.</p>\n\n<p>Theo CNN, cả 3 c&acirc;y cầu nối liền Severodonetsk với th&agrave;nh phố l&acirc;n cận Lysychansk đều đ&atilde; bị ph&aacute; hủy. Theo Thống đốc Luhansk - Serhiy Hayday, hiện c&aacute;c lựa chọn để sơ t&aacute;n thường d&acirc;n ra khỏi khu vực nh&agrave; m&aacute;y Azot đang dần kh&eacute;p lại, viễn cảnh bị c&ocirc; lập ho&agrave;n to&agrave;n l&agrave; điều kh&oacute; tr&aacute;nh khỏi.</p>\n\n<p>&quot;3 c&acirc;y cầu n&agrave;y trước đ&acirc;y c&ograve;n c&oacute; thể d&ugrave;ng để cung cấp h&agrave;ng h&oacute;a nh&acirc;n đạo, nhưng giờ ch&uacute;ng đều ở t&igrave;nh trạng kh&ocirc;ng thể sử dụng. 2 c&acirc;y cầu đ&atilde; bị ph&aacute; hủy v&agrave;o cuối tuần trước, c&acirc;y cầu cuối c&ugrave;ng th&igrave; bị ph&aacute;o binh Nga tấn c&ocirc;ng li&ecirc;n tục, hiện kh&ocirc;ng c&oacute; phương tiện n&agrave;o c&oacute; thể đi qua.</p>\n\n<p><img src=\"https://static-images.vnncdn.net/files/publish/2022/6/14/48c6531f-fb69-4d2b-999f-569f7671a450-155.jpg\" /></p>\n\n<p>Đường phố Severodonetsk hoang t&agrave;n sau ph&aacute;o k&iacute;ch. Ảnh: LATimes</p>\n\n<p>Việc chặt đứt c&aacute;c con đường ra khỏi Severodonetsk tạo ra một lợi thế&nbsp;<a href=\"https://vietnamnet.vn/the-gioi/quan-su\" target=\"_blank\">qu&acirc;n sự</a>&nbsp;lớn cho Nga, khi ch&uacute;ng t&ocirc;i gặp kh&oacute; khăn lớn trong việc t&igrave;m kiếm vũ kh&iacute; v&agrave; lương thực dự trữ&quot;, &ocirc;ng Hayday cho biết.</p>\n\n<p>Tuy vậy, Thống đốc Luhansk cũng khẳng định rằng, vẫn c&oacute; những con đường để di chuyển tới Lysychansk, nhưng kh&ocirc;ng thể tiết lộ chi tiết v&igrave; l&iacute; do an to&agrave;n.</p>\n\n<p><strong>Tổng thống Zelensky n&oacute;i cuộc chiến ở Donbass khiến Ukraine tổn thất &quot;kinh ho&agrave;ng&quot;</strong></p>\n\n<p>Trong tối 13/6, Tổng thống Zelensky đ&atilde; c&oacute; b&agrave;i ph&aacute;t biểu khẳng định, cuộc xung đột tại Donbass &quot;chắc chắn sẽ trở th&agrave;nh một trong những cuộc chiến t&agrave;n khốc nhất trong lịch sử ch&acirc;u &Acirc;u&quot;.</p>\n\n<p><img src=\"https://static-images.vnncdn.net/files/publish/2022/6/14/898ac09d-d108-453f-9523-b3df1190eede-156.jpg\" /></p>\n\n<p>Tổng thống Zelensky thừa nhận tổn thất lớn tại Donbas. Ảnh: CNN</p>\n\n<p>&quot;Thiệt hại về nh&acirc;n mạng trong cuộc xung đột n&agrave;y l&agrave; rất lớn, thực sự kinh ho&agrave;ng. Chiến sự tại Donbass sẽ được ghi nhớ như một trong những cuộc chiến t&agrave;n khốc v&agrave; bạo lực nhất trong lịch sử của ch&acirc;u &Acirc;u. Một cậu b&eacute; 6 tuổi thậm ch&iacute; đ&atilde; thiệt mạng tr&ecirc;n đường phố Severodonetsk ng&agrave;y h&ocirc;m nay bởi ph&aacute;o k&iacute;ch từ ph&iacute;a Nga.</p>\n\n<p>V&igrave; vậy, d&ugrave; đ&atilde; k&ecirc;u gọi rất nhiều lần, nhưng t&ocirc;i vẫn buộc phải nhắc lại, c&aacute;c đồng minh h&atilde;y tiếp tục chi viện đạn ph&aacute;o v&agrave; t&ecirc;n lửa tầm xa cho Ukraine để ch&uacute;ng t&ocirc;i c&oacute; đủ khả năng lật ngược t&igrave;nh thế&quot;, &ocirc;ng Zelensky cho biết.</p>\n\n<p><strong>Ngoại trưởng Mỹ điện đ&agrave;m c&ugrave;ng những người đồng cấp Anh v&agrave; H&agrave;n Quốc về vấn đề Ukraine</strong></p>\n\n<p>Theo Aljazeera, trong ng&agrave;y 13/6, Ngoại trưởng Mỹ Antony Blinken đ&atilde; c&oacute; cuộc điện đ&agrave;m c&ugrave;ng Ngoại trưởng Anh v&agrave; H&agrave;n Quốc để thảo luận về&nbsp;<a href=\"https://vietnamnet.vn/su-kien/tinh-hinh-chien-su-nga-ukraine-728834.html\" target=\"_blank\">t&igrave;nh h&igrave;nh tại Ukraine</a>.</p>\n\n<p><img src=\"https://static-images.vnncdn.net/files/publish/2022/6/14/thumbs-b-c-66b1d0fd3d5019195e9c8623126dc356-157.jpg\" /></p>\n\n<p>Ngoại trưởng Mỹ Antony Blinken. Ảnh: AA</p>\n\n<p>&quot;Ch&uacute;ng t&ocirc;i s&aacute;t c&aacute;nh c&ugrave;ng nhau trong việc đối mặt với c&aacute;c nguy cơ an ninh to&agrave;n cầu, bao gồm cả h&agrave;nh động đ&aacute;ng l&ecirc;n &aacute;n của Nga. Kể từ khi cuộc xung đột b&ugrave;ng nổ,&nbsp;<a href=\"https://vietnamnet.vn/han-quoc-tag5857509766151576852.html\" target=\"_blank\">H&agrave;n Quốc</a>&nbsp;đ&atilde; nhanh ch&oacute;ng phối hợp c&aacute;c biện ph&aacute;p trừng phạt kinh tế v&agrave; kiểm so&aacute;t xuất khẩu c&ugrave;ng với Mỹ v&agrave; c&aacute;c đồng minh kh&aacute;c.</p>\n\n<p>Kh&ocirc;ng những vậy, ch&uacute;ng t&ocirc;i cũng chia sẻ sự quan ngại với Anh về phi&ecirc;n t&ograve;a &quot;giả mạo&quot; v&agrave; c&aacute;c ph&aacute;n quyết của n&oacute; đối với c&ocirc;ng d&acirc;n Anh phục vụ trong lực lượng vũ trang của Ukraine&quot;, &ocirc;ng Blinken cho hay.</p>\n\n<p><strong>Ukraine khẳng định vẫn đảm bảo an ninh lương thực</strong></p>\n\n<p>Trong ng&agrave;y 13/6, Thứ trưởng N&ocirc;ng nghiệp Taras Vysotskiy cho biết, Ukraine đ&atilde; mất đi 1/4 diện t&iacute;ch đất canh t&aacute;c kể từ khi cuộc xung đột nổ ra v&agrave;o th&aacute;ng Hai, chủ yếu l&agrave; tại khu vực ph&iacute;a Đ&ocirc;ng.</p>\n\n<p>Tuy vậy, &ocirc;ng Vysotskiy khẳng định, &quot;d&ugrave; mất đi 25% đất canh t&aacute;c, sản lượng thu hoạch năm ngo&aacute;i l&agrave; qu&aacute; đủ v&agrave; t&igrave;nh h&igrave;nh diện t&iacute;ch trồng trọt hiện tại kh&ocirc;ng g&acirc;y ra sự đe dọa n&agrave;o đối với an ninh lương thực của Ukraine&quot;.</p>\n\n<p><strong>Việt Dũng</strong></p>\n",
+      "created_at": "2022-06-14T06:53:54.919Z",
+      "short_desc": "",
+      "title": "Severodonetsk bị cô lập, ông Zelensky thừa nhận Ukraine bị tổn thất 'kinh hoàng'",
+      "categoryBlogId": 2,
+      "id": 6
     }
   ],
   "categoryBlogs": [
@@ -54,6 +74,17 @@
         "id": 2,
         "name": "Pattern"
       }
+    },
+    {
+      "created_at": "2022-06-13T15:24:56.318Z",
+      "name": "sữa tắm enchanteur vàng 550g",
+      "categoriesWorkId": "2",
+      "image": "https://img.freepik.com/free-vector/dashboard-interface-user-panel-template_52683-23323.jpg",
+      "id": 2,
+      "categoriesWork": {
+        "id": 1,
+        "name": "Dashboard"
+      }
     }
   ],
   "categoriesWorks": [
@@ -64,6 +95,14 @@
     {
       "id": 2,
       "name": "Pattern"
+    }
+  ],
+  "users": [],
+  "contact": [
+    {
+      "id":1,
+      "email": "thanhntph15251@fpt.edu.vn",
+      "phone": "0354170252"
     }
   ]
 }

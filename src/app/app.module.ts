@@ -22,6 +22,9 @@ import { BlogDetailComponent } from './page/blog-detail/blog-detail.component';
 import { AdminWorkAddComponent } from './page/admin/admin-work-add/admin-work-add.component';
 import { WorkDetailComponent } from './page/work-detail/work-detail.component';
 import { RouterModule } from '@angular/router';
+import { LoginComponent } from './page/login/login.component';
+import { ContactPageComponent } from './page/contact-page/contact-page.component';
+import { SignupPageComponent } from './page/signup-page/signup-page.component';
 
 
 @NgModule({
@@ -42,6 +45,9 @@ import { RouterModule } from '@angular/router';
     BlogDetailComponent,
     AdminWorkAddComponent,
     WorkDetailComponent,
+    LoginComponent,
+    ContactPageComponent,
+    SignupPageComponent,
   ],
   imports: [
     BrowserModule,
