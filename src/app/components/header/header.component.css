@@ -1,5 +1,5 @@
 #down {
-    animation: dropDown .5s;
+    animation: dropDown .3s;
 }
 
 @keyframes dropDown {

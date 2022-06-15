@@ -14,6 +14,7 @@ import { LoginComponent } from './page/login/login.component';
 import { SignupPageComponent } from './page/signup-page/signup-page.component';
 import { WorkDetailComponent } from './page/work-detail/work-detail.component';
 import { WorkPageComponent } from './page/work-page/work-page.component';
+import { AdminGuard } from './service/guard/admin.guard';
 
 const routes: Routes = [
   {
@@ -49,6 +50,7 @@ const routes: Routes = [
   {
     path: "admin",
     component: AdminLayoutComponent,
+    canActivate: [AdminGuard],
     children: [
       {
         path: "blog",

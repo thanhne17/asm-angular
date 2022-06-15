@@ -14,13 +14,11 @@ export class HeaderComponent implements OnInit {
   onClick() {
     if (this.status) {
       //open
-      console.log(1);
       this.status = !this.status
 
     }
     else{
       //close
-      console.log(this.status);
       this.status = !this.status
       
     }

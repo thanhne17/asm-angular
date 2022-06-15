@@ -106,6 +106,11 @@
       "email": "thanhntpg15251@fpt.com",
       "password": "$2a$10$ClJcW1PtwR.moftI0Lqs0ehTvzRgtWkILEZ620eGCTIbVdqwMlbRi",
       "id": 1
+    },
+    {
+      "email": "thanhne@gmail.com",
+      "password": "$2a$10$XMAvlcSyTBpxEmMYiec58e50r3ydsWdR3bWPExJNoryiXPW31ryKK",
+      "id": 2
     }
   ],
   "contact": [
