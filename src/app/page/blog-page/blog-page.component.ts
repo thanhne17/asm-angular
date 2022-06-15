@@ -29,9 +29,7 @@ export class BlogPageComponent implements OnInit {
   onFilter (id:number) {
     this.cateService.getBlogByCate(id).subscribe(data=>{
       this.abc = data
-      this.blogList = this.abc.blogs
-      console.log(this.blogList);
-            
+      this.blogList = this.abc.blogs            
     })
   }
 }

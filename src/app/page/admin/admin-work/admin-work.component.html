@@ -1,27 +1,66 @@
-<div class="flex justify-between px-4">
-    <h1 class="text-3xl font-bold mb-5">Work</h1>
-    <a routerLink="add"><i class="fa-solid fa-circle-plus fa-bounce text-3xl" title="Add work"></i></a>
+<div class=" px-4">
+    <div class="flex justify-between">
+        <h1 class="text-3xl font-bold mb-5">Work</h1>
+        <a routerLink="add"><i class="fa-solid fa-circle-plus fa-bounce text-3xl" title="Add blog"></i></a>
+    </div>
+    <div class="flex flex-col justify-center h-full">
+        <!-- Table -->
+        <div class="w-full mx-auto max-w-7xl bg-white shadow-lg rounded-sm border border-gray-200">
+            <div class="p-3">
+                <div class="overflow-x-auto">
+                    <table class="table-auto w-full">
+                        <thead class="text-xs font-semibold uppercase text-gray-400 bg-gray-50">
+                            <tr>
+                                <th class="p-2 whitespace-nowrap">
+                                    <div class="font-semibold text-left">#</div>
+                                </th>
+                                <th class="p-2 whitespace-nowrap">
+                                    <div class="font-semibold text-left">Title</div>
+                                </th>
+                                <th class="p-2 whitespace-nowrap">
+                                    <div class="font-semibold text-center">Created at</div>
+                                </th>
+                                <th class="p-2 whitespace-nowrap">
+                                    <div class="font-semibold text-center">Category</div>
+                                </th>
+                                <th class="p-2 whitespace-nowrap">
+                                    <div class="font-semibold text-left">Image</div>
+                                </th>
+                                <th class="p-2 whitespace-nowrap" colspan="2">
+                                    <div class="font-semibold text-center">--</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-sm divide-y divide-gray-100">
+                            <tr *ngFor="let item of workList, let i = index">
+                                <td class="p-2 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        {{i + 1}}
+                                    </div>
+                                </td>
+                                <td class="p-2 whitespace-nowrap">
+                                    <div class="text-left">{{ item.name }}</div>
+                                </td>
+                                <td class="p-2 whitespace-wrap">
+                                    <div class="text-left font-medium text-green-500">{{item.created_at}}</div>
+                                </td>
+                                <td class="p-2 whitespace-nowrap">
+                                    <div class="text-lg text-center">{{item.categoriesWork.name}}</div>
+                                </td>
+                                <td class="p-2 whitespace-nowrap">
+                                    <img class="w-[150px]" src="{{item.image}}" alt="">
+                                </td>
+                                <th scope="col"><button><i routerLink="/admin/work/{{item.id}}/edit"
+                                            class="fa-regular fa-pen-to-square hover:scale-110 duration-100"
+                                            title="Edit {{item.title}}"></i></button></th>
+                                <th scope="col"><i (click)="onRemove(item.id)"
+                                        class="fa-solid fa-trash cursor-pointer hover:scale-110 duration-100"
+                                        title="Remove {{item.title}}"></i></th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<table class="table table-hover">
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Title</th>
-            <th scope="col">Created at</th>
-            <th scope="col">Category</th>
-            <th scope="col">Image</th>
-            <th scope="col">--</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr *ngFor="let item of workList, let i = index">
-            <th scope="row">{{ i + 1}}</th>
-            <td>{{ item.name }}</td>
-            <td>{{item.created_at}}</td>
-            <td>{{item.categoriesWork.name}}</td>
-            <td><img class="w-[150px]" src="{{item.image}}" alt=""></td>
-            <th scope="col"><button><i routerLink="/admin/work/{{item.id}}/edit" class="fa-regular fa-pen-to-square hover:scale-110 duration-100" title="Edit {{item.title}}"></i></button></th>
-            <th scope="col"><i (click)="onRemove(item.id)" class="fa-solid fa-trash cursor-pointer hover:scale-110 duration-100" title="Remove {{item.title}}"></i></th>
-        </tr>
-    </tbody>
-</table>

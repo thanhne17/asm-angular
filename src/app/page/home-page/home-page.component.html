@@ -1,14 +1,25 @@
 <section class="flex sm:flex-row-reverse sm:justify-between sm:pt-[180px] flex-col items-center mx-auto sm:w-[1152px]">
     <img class="rounded-full w-[250px] h-[250px] my-[20px] sm:my-[0px]"
-        src="https://res.cloudinary.com/djsbi0bma/image/upload/v1645776496/ldy1d0uqb6we9lbmttsd.jpg"
-        alt="">
+        src="https://res.cloudinary.com/djsbi0bma/image/upload/v1645776496/ldy1d0uqb6we9lbmttsd.jpg" alt="">
     <div class="w-[60%] text-center sm:text-left">
         <h2 class="font-semibold text-3xl sm:text-5xl">Hi, I am Thanh,<br> Creative Technologist</h2>
         <p class="py-[40px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor
             do amet sint. Velit officia consequat duis enim velit mollit.
             Exercitation veniam consequat sunt nostrud amet.
         </p>
-        <button class="bg-[#FF6464] rounded px-[20px] py-[10px] text-white text-xl">Download Resume</button>
+        <button class="bg-[#FF6464] rounded px-[20px] py-[10px] text-white text-xl" (click)="openModal()">Download Resume</button>
+    </div>
+</section>
+
+<section id="popup" class="w-screen h-screen fixed top-0 left-0 flex justify-center items-center z-999" [ngClass]="status ? 'block' : 'hidden' ">
+    <div class="mx-[10px] sm:mx-0 max-w-6xl max-h-[600px] mx-auto bg-white rounded-xl overflow-hidden py-5">
+        <header class="border-b flex justify-end items-center px-5 pb-5">
+            <i class="fa-regular fa-circle-xmark text-2xl cursor-pointer" (click)="openModal()"></i>
+        </header>
+        <div class="overflow-y-scroll max-h-[550px]"><img
+                src="https://res.cloudinary.com/djsbi0bma/image/upload/v1655306538/T%C3%ADm_Ph%C3%A1t_tri%E1%BB%83n_Ph%E1%BA%A7n_m%E1%BB%81m_C%C3%B4ng_ngh%E1%BB%87_S%C6%A1_y%E1%BA%BFu_l%C3%AD_l%E1%BB%8Bch_jmxj5i.png"
+                alt="">
+        </div>
     </div>
 </section>
 
@@ -42,9 +53,7 @@
     <h4 class="font-semibold text-xl sm:text-left text-center">Featured Works</h4>
     <div *ngFor="let item of workList" class="border-b p-[20px] sm:m-0 sm:pb-[20px]">
         <a routerLink="/work/{{item.id}}" class="sm:flex mt-[45px]">
-            <img class="rounded sm:w-[250px]"
-                src="{{item.image}}"
-                alt="">
+            <img class="rounded sm:w-[250px]" src="{{item.image}}" alt="">
             <div class="ml-[20px]">
                 <h1 class="text-2xl sm:text-3xl font-bold">{{item.name}}</h1>
                 <div class="flex py-[15px]">
@@ -59,5 +68,5 @@
         </a>
     </div>
 
-    
+
 </section>

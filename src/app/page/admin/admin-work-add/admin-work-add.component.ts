@@ -17,7 +17,8 @@ export class AdminWorkAddComponent implements OnInit {
     created_at: this.getDate(),
     name: "",
     categoriesWorkId: 0,
-    image: ""
+    image: "",
+    content: ""
   }
 
   getDate() {

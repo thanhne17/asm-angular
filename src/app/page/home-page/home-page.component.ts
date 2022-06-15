@@ -11,6 +11,7 @@ import { WorkService } from 'src/app/service/work.service';
 export class HomePageComponent implements OnInit {
   blogList!: any
   workList!: any
+  status:boolean = false
   constructor(
     private blogService: BlogService,
     private workService: WorkService
@@ -31,6 +32,15 @@ export class HomePageComponent implements OnInit {
     this.workService.getWorksHome().subscribe(data => {
       this.workList = data
     })
+  }
+
+  openModal () {
+    if (this.status) {
+      this.status = !this.status
+    }
+    else{
+      this.status = !this.status
+    }
   }
 
 }

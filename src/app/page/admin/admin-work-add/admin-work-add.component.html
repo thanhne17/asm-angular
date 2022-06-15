@@ -1,9 +1,24 @@
 <form (submit)="onSubmit()">
-    <div class="mb-3">
-        <input type="text" class="w-full indent-[10px] border-b" [(ngModel)]="work.name" name="name" placeholder="Title">
+    <div #formAdd="" class="mb-3">
+        <input type="text" class="w-full indent-[10px] border-b" [(ngModel)]="work.name" name="name"
+            placeholder="Name" #name="ngModel" required minlength="10">
     </div>
-    <select name="categoriesWorkId" [(ngModel)]="work.categoriesWorkId" class="w-full indent-[10px] border-b mb-3">
+
+    <select name="categoryId" [(ngModel)]="work.categoriesWorkId" class="w-full indent-[10px] border-b mb-3"
+        #name="ngModel" required>
         <option *ngFor="let item of cateworkList" value="{{item.id}}">{{item.name}}</option>
     </select>
-    <button class="btn btn-primary mt-3">Submit</button>
+
+    <ckeditor tagName="textarea" name="content" [(ngModel)]="work.content" #name="ngModel" required></ckeditor>
+
+    <div [ngClass]="name.errors ? 'block' : 'hidden' " *ngIf="name.errors" class="bg-red-100 text-red-700 ">
+        <p class=" px-4 py-3 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded" *ngIf="name.errors?.['required'] && (name.dirty || name.touched)">
+            Title is required
+        </p>
+        <p class=" px-4 py-3 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded" *ngIf="name.errors?.['minlength'] && (name.dirty || name.touched)">
+            At least 10 characters
+        </p>
+    </div>
+
+    <button [disabled]="!formAdd" class="btn btn-primary mt-3">Submit</button>
 </form>
