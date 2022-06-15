@@ -7,16 +7,16 @@ import { IUer } from '../model/user';
   providedIn: 'root'
 })
 export class AuthService {
-  url: string = " http://localhost:3000/users" 
+  url: string = " http://localhost:3000/" 
   constructor(
     private http: HttpClient
   ) { }
 
   signUp (data: IUer):Observable<IUer> {
-    return this.http.post<IUer>(this.url, data)
+    return this.http.post<IUer>(`${this.url}/signup`, data)
   };
 
   signIn (data: IUer):Observable<IUer> {
-    return this.http.post<IUer>(this.url, data)
+    return this.http.post<IUer>(`${this.url}/signin`, data)
   }
 }

@@ -101,7 +101,13 @@
       "name": "Pattern"
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "email": "thanhntpg15251@fpt.com",
+      "password": "$2a$10$ClJcW1PtwR.moftI0Lqs0ehTvzRgtWkILEZ620eGCTIbVdqwMlbRi",
+      "id": 1
+    }
+  ],
   "contact": [
     {
       "id": 1,
